@@ -34,7 +34,7 @@ Hive can also be extended through **User Defined Functions (UDF)**. A UDF allows
 
 ##<a id="data"></a>About the sample data
 
-This example uses a *log4j* sample file, which is stored at **/example/data/sample.log** under your blob storage container. Each log inside the file consists of a line of fields that contains a `[LOG LEVEL]` field to show the type and the severity. For example:
+This example uses a *log4j* sample file, which is stored at **/example/data/sample.log** under the blob storage container associated with your HDInsight cluster. Each log inside the file consists of a line of fields that contains a `[LOG LEVEL]` field to show the type and the severity. For example:
 
 	2012-02-03 20:26:41 SampleClass3 [ERROR] verbose detail for id 1527353937
 
