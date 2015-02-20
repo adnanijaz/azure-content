@@ -134,12 +134,13 @@ For instructions on writing your own MapReduce job, see [Develop Java MapReduce 
 
 ##<a id="run"></a>Run the MapReduce
 
-HDInsight can run HiveQL jobs using a variety of methods. Use the following table to decide which method is right for you, then follow the link for a walkthrough.
+HDInsight can run MapReduce jobs using a variety of methods. Use the following table to decide which method is right for you, then follow the link for a walkthrough.
 
 |**Use this**... | **to do this** | with this **Cluster OS** | from this **client OS**|
 ----------------------------------- | ------------------------ | ---------------- | ------------
 <a href="../hdinsight-hadoop-use-mapreduce-ssh/" target="_blank">SSH</a> | use the Hadoop command through **SSH** | Linux | Linux, Unix, Mac OS X, or Windows
 <a href="../hdinsight-hadoop-use-mapreduce-curl/" target="_blank">Curl</a> | submit the job remotely using **REST** | Linux or Windows | Linux, Unix, Mac OS X, or Windows
+<a href="/en-us/documentation/articles/hdinsight-hadoop-use-pig-dotnet-sdk/" target="_blank">.NET SDK for Hadoop</a> | submit the job using generic MapReduce SDK method | Linux or Windows | Windows (for now)
 <a href="../hdinsight-hadoop-use-mapreduce-powershell/" target="_blank">PowerShell</a> | submit the job remotely using **PowerShell**| Linux or Windows | Windows
 <a href="../hdinsight-hadoop-use-mapreduce-remote-desktop/" target="_blank">Remote Desktop</a> |use the Hadoop command through **Remote Desktop** | Windows | Windows
 
